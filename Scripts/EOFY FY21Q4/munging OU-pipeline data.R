@@ -48,7 +48,7 @@ percent_clean <- function(x, y) {
 
 budget<-list.files("~/Data/Budget Files/OU Pipeline",full.names = TRUE) #can try and automate via google folder
 glimpse(budget)
-data <- "C:/Users/Bkasdan/Documents/Data/Budget Files/OU Pipeline/Angola_EOFY Pipeline_FY 2021.xlsx"
+# data <- "C:/Users/Bkasdan/Documents/Data/Budget Files/OU Pipeline/Angola_EOFY Pipeline_FY 2021.xlsx"
 
 get_ou_pipeline<-function(df){
   df<-read_xlsx(df, sheet = "OU")
